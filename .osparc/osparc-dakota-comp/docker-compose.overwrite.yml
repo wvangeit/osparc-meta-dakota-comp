@@ -1,0 +1,4 @@
+services:
+  osparc-dakota-comp:
+    build:
+      dockerfile: Dockerfile

@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  osparc-dakota-comp:
+    image: simcore/services/comp/osparc-dakota-comp:0.0.1
+    ports:
+      - "8888:8888"
+    environment:
+      - INPUT_FOLDER=/tmp/inputs
+      - OUTPUT_FOLDER=/tmp/outputs
+      - OSPARC_API_KEY=test_T1QyAxKBUX
+      - OSPARC_API_SECRET=0dsHA6zdYDNEtwNKsXZHBQq8eHuPbd
+        
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${PWD}/validation-tmp/workspace:/home/osparcuser/work/workspace
+      - ${PWD}/validation-tmp/inputs:/tmp/inputs
+      - ${PWD}/validation-tmp/outputs:/tmp/outputs

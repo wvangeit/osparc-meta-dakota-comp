@@ -1,0 +1,97 @@
+{
+    "uuid": "23423432",
+    "command": "run",
+    "tasks": [
+        {
+            "input": {
+                "InputFile1": {
+                     "type": "FileJSON",
+                     "filename": "input.json",
+                     "value": [
+                        0.2565907443530884,
+                        0.0049903799966523055,
+                        0.1761798083814068
+                     ]
+                },
+                "InputNumber1": {
+                     "type": "float",
+                     "value": 0.666
+                },
+                "InputInteger1": {
+                     "type": "integer",
+                     "value": 666
+                }
+            },
+            "output": {
+                "OutputFile1": {
+                     "type": "FileJSON",
+                     "filename": "output.json"
+                },
+                "OutputNumber1": {
+                    "type": "float"
+                },
+                "OutputInteger1": {
+                    "type": "integer"
+                }
+            }
+        },
+        {
+            "input": {
+                "InputFile1": {
+                     "type": "FileJSON",
+                     "filename": "input.json",
+                     "value": [
+                        0.03189707792004526,
+                        0.5567408897700982,
+                        0.9994825797305054
+                     ]
+                },
+                "InputNumber1": {
+                     "type": "float",
+                     "value": 1.666
+                },
+                "InputInteger1": {
+                     "type": "integer",
+                     "value": 1666
+                }
+            },
+            "output": {
+                "OutputFile1": {
+                     "type": "FileJSON",
+                     "filename": "output.json"
+                },
+                "OutputNumber1": {
+                    "type": "float"
+                },
+                "OutputInteger1": {
+                    "type": "integer"
+                }
+            }
+        },
+        {
+            "input": {
+                "InputFile1": {
+                     "type": "FileJSON",
+                     "filename": "input.json",
+                     "value": [
+                        0.3119122781302056,
+                        0.29588291546315737,
+                        0.4652890454124229
+                     ]
+                }
+            },
+            "output": {
+                "OutputFile1": {
+                     "type": "FileJSON",
+                     "filename": "output.json"
+                },
+                "OutputNumber1": {
+                    "type": "float"
+                },
+                "OutputInteger1": {
+                    "type": "integer"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+name: DakotaCompService
+description: "DakotaCompService"
+key: simcore/services/comp/osparc-dakota-comp
+version: 0.0.1
+integration-version: 0.0.1
+type: computational
+authors:
+  - name: Werner Van Geit
+    email: 18575092+wvangeit@users.noreply.github.com
+    affiliation: IT'IS Foundation
+contact: 18575092+wvangeit@users.noreply.github.com
+inputs:
+  input_0:
+    displayOrder: 0.0
+    label: Dakota config
+    description:
+     Dakota configuration files
+    type: data:*/*
+outputs:
+  output_0:
+    displayOrder: 0.0
+    label: Dakota output files
+    description: Dakota output files
+    type: data:*/*
+boot-options:
+  boot_mode:
+    label: Boot mode
+    description: Select boot type for the service
+    default: "0"
+    items:
+      "0":
+        label: Default
+        description: Normal mode
